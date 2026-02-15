@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مَليحة | MALIHA Specialty Coffee</title>
+    <meta name="description" content="مَليحة - محمصة قهوة مختصة في الرياض. صباحك يبدأ بمليحة">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo" data-ar="مَليحة" data-en="MALIHA">مَليحة</a>
+                <ul class="nav-links">
+                    <li><a href="#story" data-ar="قصتنا" data-en="Our Story">قصتنا</a></li>
+                    <li><a href="#menu" data-ar="القائمة" data-en="Menu">القائمة</a></li>
+                    <li><a href="#experience" data-ar="التجربة" data-en="Experience">التجربة</a></li>
+                    <li><a href="#events" data-ar="الفعاليات" data-en="Events">الفعاليات</a></li>
+                    <li><a href="#visit" data-ar="زيارتك" data-en="Visit Us">زيارتك</a></li>
+                </ul>
+                <button class="lang-toggle" id="langToggle" aria-label="تبديل اللغة">
+                    <span class="lang-text">EN</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="القائمة">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#story" data-ar="قصتنا" data-en="Our Story">قصتنا</a></li>
+            <li><a href="#menu" data-ar="القائمة" data-en="Menu">القائمة</a></li>
+            <li><a href="#experience" data-ar="التجربة" data-en="Experience">التجربة</a></li>
+            <li><a href="#events" data-ar="الفعاليات" data-en="Events">الفعاليات</a></li>
+            <li><a href="#visit" data-ar="زيارتك" data-en="Visit Us">زيارتك</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image-placeholder">
+                    <div class="placeholder-text">
+                        <span data-ar="صورة الصباح" data-en="Morning Image">صورة الصباح</span>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title" data-ar="صباحك يبدأ بمليحة" data-en="Your Morning Begins with Maliha">صباحك يبدأ بمليحة</h1>
+                    <p class="hero-subtitle" data-ar="طقس... ليس مجرد قهوة" data-en="A Ritual. Not Just Coffee.">طقس... ليس مجرد قهوة</p>
+                    <div class="hero-cta">
+                        <a href="#visit" class="btn btn-primary" data-ar="زر الموقع" data-en="Visit Us">زر الموقع</a>
+                        <a href="#menu" class="btn btn-secondary" data-ar="عرض القائمة" data-en="View Menu">عرض القائمة</a>
+                    </div>
+                    <p class="hero-microcopy" data-ar="مساحتنا صغيرة... لكن تجربتنا كبيرة." data-en="Our space is small... but our experience is grand.">مساحتنا صغيرة... لكن تجربتنا كبيرة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Story Section -->
+    <section class="story section" id="story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-content">
+                    <span class="section-label" data-ar="قصتنا" data-en="Our Story">قصتنا</span>
+                    <h2 class="section-title" data-ar="اسمٌ من قصيدة" data-en="A Name from Poetry">اسمٌ من قصيدة</h2>
+                    <div class="story-text">
+                        <p data-ar="مَليحة... اسمٌ يحمل في طياته عبق الصباح البدوي، وحكايات القهوة الأولى التي تُسكب مع أشعة الشمس. استوحينا اسمنا من القصيدة العربية التي تُمجد جمال الصباح ونقاء اللحظات الأولى." data-en="Maliha... a name that carries within it the scent of Bedouin mornings, and stories of the first coffee poured with sunlight. We drew our name from Arabic poetry that glorifies the beauty of morning and the purity of first moments.">
+                            مَليحة... اسمٌ يحمل في طياته عبق الصباح البدوي، وحكايات القهوة الأولى التي تُسكب مع أشعة الشمس. استوحينا اسمنا من القصيدة العربية التي تُمجد جمال الصباح ونقاء اللحظات الأولى.
+                        </p>
+                        <p data-ar="في مليحة، نؤمن بأن القهوة ليست مجرد مشروب، بل هي طقس يومي مقدس. كل فنجان يحمل في داخله سنوات من الخبرة، وحماسة الباريستا، وحرصنا على اختيار أجود حبوب القهوة من أفضل المزارع حول العالم." data-en="At Maliha, we believe coffee is not just a drink, but a sacred daily ritual. Every cup carries within it years of expertise, the barista's passion, and our dedication to selecting the finest coffee beans from the best farms worldwide.">
+                            في مليحة، نؤمن بأن القهوة ليست مجرد مشروب، بل هي طقس يومي مقدس. كل فنجان يحمل في داخله سنوات من الخبرة، وحماسة الباريستا، وحرصنا على اختيار أجود حبوب القهوة من أفضل المزارع حول العالم.
+                        </p>
+                        <p data-ar="نحن هنا لنُعيد تعريف تجربة القهوة المختصة في الرياض. ليس بكمِّ الخيارات، بل بجودة كل لحظة، ودفء كل ابتسامة، ونكهة لا تُنسى." data-en="We are here to redefine the specialty coffee experience in Riyadh. Not by the quantity of choices, but by the quality of every moment, the warmth of every smile, and an unforgettable flavor.">
+                            نحن هنا لنُعيد تعريف تجربة القهوة المختصة في الرياض. ليس بكمِّ الخيارات، بل بجودة كل لحظة، ودفء كل ابتسامة، ونكهة لا تُنسى.
+                        </p>
+                    </div>
+                </div>
+                <div class="story-image">
+                    <div class="image-placeholder story-img">
+                        <div class="placeholder-text">
+                            <span data-ar="صورة القصة" data-en="Story Image">صورة القصة</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu section" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-ar="قائمتنا" data-en="Our Menu">قائمتنا</span>
+                <h2 class="section-title" data-ar="قائمة مَليحة" data-en="Maliha Menu">قائمة مَليحة</h2>
+                <p class="section-subtitle" data-ar="مشروباتنا المحضرة بعناية، وحلوياتنا المختارة بذوق" data-en="Our carefully crafted drinks, and our tastefully selected desserts">مشروباتنا المحضرة بعناية، وحلوياتنا المختارة بذوق</p>
+            </div>
+
+            <!-- Hot Drinks -->
+            <div class="menu-category">
+                <h3 class="category-title" data-ar="المشروبات الساخنة" data-en="Hot Beverages">المشروبات الساخنة</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="فلات وايت" data-en="Flat White">فلات وايت</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="فلات وايت" data-en="Flat White">فلات وايت</h4>
+                            <p data-ar="إسبريسو مزدوج مع حليب مخفوق بحرارة مثالية" data-en="Double espresso with perfectly steamed milk">إسبريسو مزدوج مع حليب مخفوق بحرارة مثالية</p>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="كورتادو" data-en="Cortado">كورتادو</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="كورتادو" data-en="Cortado">كورتادو</h4>
+                            <p data-ar="توازن مثالي بين الإسبريسو والحليب الدافئ" data-en="Perfect balance between espresso and warm milk">توازن مثالي بين الإسبريسو والحليب الدافئ</p>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="إسبريسو" data-en="Espresso">إسبريسو</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="إسبريسو" data-en="Espresso">إسبريسو</h4>
+                            <p data-ar="نقاء القهوة بأقوى تجلياتها" data-en="The purest form of coffee">نقاء القهوة بأقوى تجلياتها</p>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="قهوة اليوم" data-en="Coffee of the Day">قهوة اليوم</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="قهوة اليوم" data-en="Coffee of the Day">قهوة اليوم</h4>
+                            <p data-ar="اختيار يومي من الباريستا لمحبي المفاجآت" data-en="Daily selection by our barista for surprise lovers">اختيار يومي من الباريستا لمحبي المفاجآت</p>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="V60" data-en="V60">V60</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4>V60</h4>
+                            <p data-ar="تقطير يدوي يُبرز نكهات الحبوب الفريدة" data-en="Hand drip that highlights unique bean flavors">تقطير يدوي يُبرز نكهات الحبوب الفريدة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cold Drinks -->
+            <div class="menu-category">
+                <h3 class="category-title" data-ar="المشروبات الباردة" data-en="Cold Beverages">المشروبات الباردة</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="آيس دريب أثيوبي" data-en="Ethiopian Ice Drip">آيس دريب أثيوبي</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="آيس دريب أثيوبي" data-en="Ethiopian Ice Drip">آيس دريب أثيوبي</h4>
+                            <p data-ar="نكهات زهرية وفواكه من أثيوبيا المرتفعات" data-en="Floral and fruity flavors from Ethiopian highlands">نكهات زهرية وفواكه من أثيوبيا المرتفعات</p>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="آيس فلات وايت" data-en="Iced Flat White">آيس فلات وايت</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="آيس فلات وايت" data-en="Iced Flat White">آيس فلات وايت</h4>
+                            <p data-ar="انتعاش القهوة المركزة مع الحليب البارد" data-en="Refreshing concentrated coffee with cold milk">انتعاش القهوة المركزة مع الحليب البارد</p>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="كولد برو" data-en="Cold Brew">كولد برو</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="كولد برو" data-en="Cold Brew">كولد برو</h4>
+                            <p data-ar="تقطير بارد لمدة ١٢ ساعة لنكهة ناعمة" data-en="12-hour cold drip for smooth flavor">تقطير بارد لمدة ١٢ ساعة لنكهة ناعمة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category">
+                <h3 class="category-title" data-ar="الحلويات" data-en="Desserts">الحلويات</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="كيكة مليحة" data-en="Maliha Cake">كيكة مليحة</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="كيكة مليحة" data-en="Maliha Cake">كيكة مليحة</h4>
+                            <p data-ar="توقيعنا الخاص... طبقات من النعومة والنكهة" data-en="Our signature... layers of softness and flavor">توقيعنا الخاص... طبقات من النعومة والنكهة</p>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="براوني" data-en="Brownie">براوني</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="براوني" data-en="Brownie">براوني</h4>
+                            <p data-ar="شوكولاتة غنية مع قوام مثالي" data-en="Rich chocolate with perfect texture">شوكولاتة غنية مع قوام مثالي</p>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="تشيزكيك" data-en="Cheesecake">تشيزكيك</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="تشيزكيك" data-en="Cheesecake">تشيزكيك</h4>
+                            <p data-ar="كريمة وجبة مع قاعدة بسكويت هشة" data-en="Creamy filling with crunchy biscuit base">كريمة وجبة مع قاعدة بسكويت هشة</p>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="وافل" data-en="Waffle">وافل</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="وافل" data-en="Waffle">وافل</h4>
+                            <p data-ar="مقرمش من الخارج، ناعم من الداخل" data-en="Crispy outside, soft inside">مقرمش من الخارج، ناعم من الداخل</p>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="كرواسون لوز" data-en="Almond Croissant">كرواسون لوز</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="كرواسون لوز" data-en="Almond Croissant">كرواسون لوز</h4>
+                            <p data-ar="طبقات زبدة مع حشوة اللوز الفاخرة" data-en="Buttery layers with premium almond filling">طبقات زبدة مع حشوة اللوز الفاخرة</p>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="كرواسون شوكلاته" data-en="Chocolate Croissant">كرواسون شوكلاته</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="كرواسون شوكلاته" data-en="Chocolate Croissant">كرواسون شوكلاته</h4>
+                            <p data-ar="شوكولاتة بلجيكية داخل طبقات هشة" data-en="Belgian chocolate inside flaky layers">شوكولاتة بلجيكية داخل طبقات هشة</p>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="كوكيز" data-en="Cookies">كوكيز</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="كوكيز" data-en="Cookies">كوكيز</h4>
+                            <p data-ar="محمص طازج مع قطع الشوكولاتة" data-en="Freshly baked with chocolate chunks">محمص طازج مع قطع الشوكولاتة</p>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="image-placeholder menu-img">
+                            <div class="placeholder-text">
+                                <span data-ar="سوفليه" data-en="Soufflé">سوفليه</span>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h4 data-ar="سوفليه" data-en="Soufflé">سوفليه</h4>
+                            <p data-ar="تجربة شوكولاتة دافئة تذوب في الفم" data-en="Warm chocolate experience that melts in mouth">تجربة شوكولاتة دافئة تذوب في الفم</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <div class="experience-grid">
+                <div class="experience-image">
+                    <div class="image-placeholder experience-img">
+                        <div class="placeholder-text">
+                            <span data-ar="تجربة مليحة" data-en="Maliha Experience">تجربة مليحة</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-content">
+                    <span class="section-label" data-ar="التجربة" data-en="The Experience">التجربة</span>
+                    <h2 class="section-title" data-ar="لحظات لا تُنسى" data-en="Unforgettable Moments">لحظات لا تُنسى</h2>
+                    <div class="experience-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M16 8V16L22 22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4 data-ar="أشعة الشمس الصباحية" data-en="Morning Sunlight">أشعة الشمس الصباحية</h4>
+                                <p data-ar="جلساتنا تت bathed بأشعة الشمس الذهبية" data-en="Our seating is bathed in golden sunlight">جلساتنا تت bathed بأشعة الشمس الذهبية</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 4C16 4 8 12 8 18C8 22.4183 11.5817 26 16 26C20.4183 26 24 22.4183 24 18C24 12 16 4 16 4Z" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M16 14V20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4 data-ar="رائحة البخور" data-en="Incense Aroma">رائحة البخور</h4>
+                                <p data-ar="عبق عود فاخر يملأ المساحة" data-en="Premium oud fragrance fills the space">عبق عود فاخر يملأ المساحة</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 28V24C8 21.7909 9.79086 20 12 20H20C22.2091 20 24 21.7909 24 24V28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    <circle cx="16" cy="12" r="6" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4 data-ar="باريستا محترف" data-en="Professional Barista">باريستا محترف</h4>
+                                <p data-ar="فريق متخصص يحب ما يفعل" data-en="A specialized team that loves what they do">فريق متخصص يحب ما يفعل</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="4" y="12" width="24" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M4 16H28" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M10 12V8C10 5.79086 11.7909 4 14 4H18C20.2091 4 22 5.79086 22 8V12" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4 data-ar="جلسات خارجية" data-en="Outdoor Seating">جلسات خارجية</h4>
+                                <p data-ar="استمتع بالهواء الطلق مع قهوتك" data-en="Enjoy the outdoors with your coffee">استمتع بالهواء الطلق مع قهوتك</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M12 16L15 19L20 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4 data-ar="هدوء يبعث على الراحة" data-en="Comforting Tranquility">هدوء يبعث على الراحة</h4>
+                                <p data-ar="مساحة هادئة بعيداً عن ضجيج المدينة" data-en="A quiet space away from city noise">مساحة هادئة بعيداً عن ضجيج المدينة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events section" id="events">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-ar="فعالياتنا" data-en="Our Events">فعالياتنا</span>
+                <h2 class="section-title" data-ar="فعاليات مَليحة" data-en="Maliha Events">فعاليات مَليحة</h2>
+                <p class="section-subtitle" data-ar="لحظات خاصة نصنعها معاً" data-en="Special moments we create together">لحظات خاصة نصنعها معاً</p>
+            </div>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="image-placeholder event-img">
+                        <div class="placeholder-text">
+                            <span data-ar="يوم التأسيس" data-en="Founding Day">يوم التأسيس</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-tag" data-ar="سنوي" data-en="Annual">سنوي</span>
+                        <h4 data-ar="يوم التأسيس" data-en="Founding Day">يوم التأسيس</h4>
+                        <p data-ar="احتفال خاص بتراثنا وتاريخنا العريق" data-en="A special celebration of our heritage and rich history">احتفال خاص بتراثنا وتاريخنا العريق</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="image-placeholder event-img">
+                        <div class="placeholder-text">
+                            <span data-ar="شتوية مليحة" data-en="Maliha Winter">شتوية مليحة</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-tag" data-ar="موسمي" data-en="Seasonal">موسمي</span>
+                        <h4 data-ar="شتوية مليحة" data-en="Maliha Winter">شتوية مليحة</h4>
+                        <p data-ar="تجربة شتوية دافئة مع مشروبات موسمية" data-en="A warm winter experience with seasonal drinks">تجربة شتوية دافئة مع مشروبات موسمية</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="image-placeholder event-img">
+                        <div class="placeholder-text">
+                            <span data-ar="موسم خاص" data-en="Special Season">موسم خاص</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-tag" data-ar="محدود" data-en="Limited">محدود</span>
+                        <h4 data-ar="موسم خاص" data-en="Special Season">موسم خاص</h4>
+                        <p data-ar="إصدارات محدودة وتجارب فريدة" data-en="Limited releases and unique experiences">إصدارات محدودة وتجارب فريدة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews section" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-ar="آراؤكم" data-en="Your Reviews">آراؤكم</span>
+                <h2 class="section-title" data-ar="ما يقوله زوارنا" data-en="What Our Visitors Say">ما يقوله زوارنا</h2>
+            </div>
+            <div class="reviews-slider">
+                <div class="reviews-track" id="reviewsTrack">
+                    <div class="review-card">
+                        <div class="review-quote">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 20H5C5 14.4772 9.47715 10 15 10V15C12.2386 15 10 17.2386 10 20ZM25 20H20C20 14.4772 24.4772 10 30 10V15C27.2386 15 25 17.2386 25 20Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M10 20V25C10 27.7614 12.2386 30 15 30H17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M25 20V25C25 27.7614 27.2386 30 30 30H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <p class="review-text" data-ar="أجمل صباحاتي تبدأ من هنا. القهوة ليست مجرد مشروب، بل تجربة روحانية تُعيد تشكيل يومي." data-en="My most beautiful mornings begin here. Coffee is not just a drink, but a spiritual experience that reshapes my day.">أجمل صباحاتي تبدأ من هنا. القهوة ليست مجرد مشروب، بل تجربة روحانية تُعيد تشكيل يومي.</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-quote">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 20H5C5 14.4772 9.47715 10 15 10V15C12.2386 15 10 17.2386 10 20ZM25 20H20C20 14.4772 24.4772 10 30 10V15C27.2386 15 25 17.2386 25 20Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M10 20V25C10 27.7614 12.2386 30 15 30H17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M25 20V25C25 27.7614 27.2386 30 30 30H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <p class="review-text" data-ar="هدوء المكان وجمال التفاصيل يجعل كل زيارة ذكرى لا تُنسى. شكراً لفريق مليحة على الإبداع المستمر." data-en="The tranquility of the place and the beauty of details make every visit an unforgettable memory. Thank you to the Maliha team for continuous creativity.">هدوء المكان وجمال التفاصيل يجعل كل زيارة ذكرى لا تُنسى. شكراً لفريق مليحة على الإبداع المستمر.</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-quote">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 20H5C5 14.4772 9.47715 10 15 10V15C12.2386 15 10 17.2386 10 20ZM25 20H20C20 14.4772 24.4772 10 30 10V15C27.2386 15 25 17.2386 25 20Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M10 20V25C10 27.7614 12.2386 30 15 30H17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M25 20V25C25 27.7614 27.2386 30 30 30H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <p class="review-text" data-ar="أفضل فلات وايت في الرياض. يمكنك تذوق الاهتمام في كل رشفة. مكان يعكس حباً حقيقياً للقهوة." data-en="The best flat white in Riyadh. You can taste the care in every sip. A place that reflects true love for coffee.">أفضل فلات وايت في الرياض. يمكنك تذوق الاهتمام في كل رشفة. مكان يعكس حباً حقيقياً للقهوة.</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-quote">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 20H5C5 14.4772 9.47715 10 15 10V15C12.2386 15 10 17.2386 10 20ZM25 20H20C20 14.4772 24.4772 10 30 10V15C27.2386 15 25 17.2386 25 20Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M10 20V25C10 27.7614 12.2386 30 15 30H17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M25 20V25C25 27.7614 27.2386 30 30 30H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <p class="review-text" data-ar="مساحة صغيرة لكنها مليئة بالدفء والأصالة. كل مرة أزورها أكتشف شيئاً جديداً يُبهجني." data-en="A small space but full of warmth and authenticity. Every time I visit, I discover something new that delights me.">مساحة صغيرة لكنها مليئة بالدفء والأصالة. كل مرة أزورها أكتشف شيئاً جديداً يُبهجني.</p>
+                    </div>
+                </div>
+                <div class="reviews-nav">
+                    <button class="review-nav-btn" id="prevReview" aria-label="السابق">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 19L8 12L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="reviews-dots" id="reviewsDots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="review-nav-btn" id="nextReview" aria-label="التالي">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 5L16 12L9 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Us Section -->
+    <section class="visit section" id="visit">
+        <div class="container">
+            <div class="visit-grid">
+                <div class="visit-content">
+                    <span class="section-label" data-ar="زيارتك" data-en="Your Visit">زيارتك</span>
+                    <h2 class="section-title" data-ar="ننتظرك" data-en="We Await You">ننتظرك</h2>
+                    <div class="visit-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 22C16 18 20 14.4183 20 10C20 5.58172 16.4183 2 12 2C7.58172 2 4 5.58172 4 10C4 14.4183 8 18 12 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <h4 data-ar="الموقع" data-en="Location">الموقع</h4>
+                                <p data-ar="طريق ديراب، الرياض" data-en="Dirab Road, Riyadh">طريق ديراب، الرياض</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M12 6V12L16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <h4 data-ar="أوقات العمل" data-en="Opening Hours">أوقات العمل</h4>
+                                <p data-ar="السبت - الخميس: ٦:٣٠ ص - ١٢:٠٠ ص" data-en="Sat - Thu: 6:30 AM - 12:00 AM">السبت - الخميس: ٦:٣٠ ص - ١٢:٠٠ ص</p>
+                                <p data-ar="الجمعة: ٢:٠٠ م - ١٢:٠٠ ص" data-en="Fri: 2:00 PM - 12:00 AM">الجمعة: ٢:٠٠ م - ١٢:٠٠ ص</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 16.92V19.92C22 20.4704 21.6041 20.9423 21.0704 20.9827C20.5367 21.0231 20.0827 20.6199 20.012 20.0892C19.9413 19.5585 20.2728 19.0609 20.8 18.92C21.3272 18.7791 21.8886 18.9204 22.27 19.29C22.6514 19.6596 22.7928 20.2209 22.652 20.7481C22.5111 21.2753 22.0136 21.6068 21.4829 21.5361C20.9522 21.4654 20.549 21.0114 20.5894 20.4777C20.6298 19.944 21.1017 19.5481 21.652 19.5481" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M5 4H9L11 9L8.5 10.5C9.57062 12.6715 11.3285 14.4294 13.5 15.5L15 13L20 15V19C20 19.5304 19.7893 20.0391 19.4142 20.4142C19.0391 20.7893 18.5304 21 18 21C14.0993 20.763 10.4202 19.1065 7.65683 16.3432C4.8935 13.5798 3.23705 9.90074 3 6C3 5.46957 3.21071 4.96086 3.58579 4.58579C3.96086 4.21071 4.46957 4 5 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <h4 data-ar="التواصل" data-en="Contact">التواصل</h4>
+                                <p data-ar="للاستفسارات والحجوزات" data-en="For inquiries and reservations">للاستفسارات والحجوزات</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visit-map">
+                    <div class="map-placeholder">
+                        <div class="placeholder-text">
+                            <span data-ar="خريطة الموقع" data-en="Location Map">خريطة الموقع</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text" data-ar="مَليحة" data-en="MALIHA">مَليحة</span>
+                    <p class="footer-tagline" data-ar="صباحك يبدأ بمليحة" data-en="Your Morning Begins with Maliha">صباحك يبدأ بمليحة</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="18" cy="6" r="1" fill="currentColor"/>
+                        </svg>
+                        <span data-ar="انستقرام" data-en="Instagram">انستقرام</span>
+                    </a>
+                </div>
+                <div class="footer-lang">
+                    <button class="lang-toggle-footer" id="langToggleFooter" aria-label="تبديل اللغة">
+                        <span class="lang-text">English</span>
+                    </button>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright" data-ar="© ٢٠٢٥ مَليحة. جميع الحقوق محفوظة." data-en="© 2025 Maliha. All rights reserved.">© ٢٠٢٥ مَليحة. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
